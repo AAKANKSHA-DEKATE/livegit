@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>Float images side by side:</p>
+
+<div class="clearfix">
+  <div class="img-container">
+  <img src="https://source.unsplash.com/random/201x201" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="https://source.unsplash.com/random/202x202" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="https://source.unsplash.com/random/203x203" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="https://source.unsplash.com/random/204x204" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="https://source.unsplash.com/random/205x205" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
