@@ -137,15 +137,28 @@
     align-items: center;
   }
 
-  .grid-container h2:before, .grid-container h2:after {
+  .grid-container h2::before {
     display: block;
     content: '';
     height: 10px;
-    background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
+    background-image: linear-gradient(to left, #ffc600 , #ffc60000);
+    float: left;
+    width: 100%;
+    margin: 0%;
+    padding-top: 0%;
   }
 
-  .grid-container h2:after {
-    --direction: right;
+  .grid-container h2::after {
+    display: block;
+    content: '';
+    height: 10px;
+    color: yellow;
+    background-image: linear-gradient(to right, #ffc600 , #ffc60000);
+    width: 100%;
+    display: inline-block;
+    float: right;
+    margin: 0%;
+    padding-top: 0%;
   }
 
   /*For responsiveness on different screens*/
