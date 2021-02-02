@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const ATTACK_VALUE = 10;
 const STRONG_ATTACK_VALUE = 18;
 const HEAL_VALUE = 23; 
@@ -139,7 +138,7 @@ attackBtn.addEventListener('click', attackHandler)
 strongAttackBtn.addEventListener('click', strongAttackHandler)
 healBtn.addEventListener('click', healHandler)
 logBtn.addEventListener('click', printLogHandler)
-=======
+
 const ATTACK_VALUE = 10;
 const STRONG_ATTACK_VALUE = 18;
 const HEAL_VALUE = 23; 
@@ -231,4 +230,3 @@ function healHandler() {
 attackBtn.addEventListener('click', attackHandler)
 strongAttackBtn.addEventListener('click', strongAttackHandler)
 healBtn.addEventListener('click', healHandler)
->>>>>>> 47bdad6e379c97e2a3ea5f178370d5d4d963f1fa
